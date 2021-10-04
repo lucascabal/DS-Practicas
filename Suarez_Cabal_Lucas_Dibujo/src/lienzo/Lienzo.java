@@ -24,7 +24,7 @@ import figuras.*
 
     /**
      * Dado un Lienzo, devuelve una Figura en caso de que se haya pinchado y null en caso de que
-     * se haya pinchado en un espacio libre
+     * se haya pinchado en un espacio libre.
      * @return
      */
     public AFigura pincha(Point point){
