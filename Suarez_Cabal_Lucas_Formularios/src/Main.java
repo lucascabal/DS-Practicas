@@ -6,7 +6,7 @@ public class Main {
 		formulario.addCampo(new CampoTexto("Nombre"));
 		formulario.addCampo(new CampoTexto("Apellido"));
 		formulario.addCampo(new CampoNumero("Telefono"));
-		formulario.addCampo(new CampoPredefinido("Ciudad", "Santander", "Oviedo", "C�diz"));
+		formulario.addCampo(new CampoPredefinido("Ciudad", "Santander", "Oviedo", "Cadiz"));
 
 		formulario.PideDatos();
 	}
