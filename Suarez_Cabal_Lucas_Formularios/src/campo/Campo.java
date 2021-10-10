@@ -1,3 +1,4 @@
+package campo;
 
 public interface Campo {
 	public void pideDato();
