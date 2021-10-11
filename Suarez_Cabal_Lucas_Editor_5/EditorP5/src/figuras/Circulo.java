@@ -12,7 +12,7 @@ public class Circulo implements Figura {
 	}
 
 	public void dibujar() {
-		System.out.println("Círculo: centro = " + centro + ", radio = " + radio);
+		System.out.println("Circulo: centro = " + centro + ", radio = " + radio);
 	}
 
 	public void mover(int dx, int dy) {

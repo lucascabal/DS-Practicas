@@ -1,0 +1,4 @@
+Se hacen dos pilas, una de hacer y otra de deshacer, cada movimiento que ejecutamos lo metemos en la pila undo, cuando queremos deshacer
+una operacion añadimos la operacion a redo, si hacemos un nuevo movimiento eliminamos redo.
+Se crearia una clase que tenga las dos pilas, ademas de los metodos undo y redo (luego se llamarian desde el editor), ademas de un metodo para el primer objeto que se añada.
+Ese metodo una vez el patron esta completo pasa a llamarse execute
