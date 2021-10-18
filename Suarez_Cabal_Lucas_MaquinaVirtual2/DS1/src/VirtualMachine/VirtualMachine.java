@@ -1,8 +1,5 @@
 package VirtualMachine;
 
-import java.util.ArrayList;
-
-import Instrucciones.AInstruccion;
 
 public class VirtualMachine {
 	
