@@ -1,17 +1,28 @@
 package registro;
 
+import editor.Dibujo;
+import editor.Figura;
+
 public class CambioCrear implements ICambio{
+
+    
+    private Figura figura;
+    private Dibujo dibujo;
+
+    public CambioCrear(Figura figura, Dibujo dibujo){
+        this.figura = figura;
+        this.dibujo = dibujo;
+    }
+
 
     @Override
     public void undo() {
-        // TODO Auto-generated method stub
-
+        dibujo.figuras.remove(figura);
     }
 
     @Override
     public void redo() {
-        // TODO Auto-generated method stub
-
+        dibujo.figuras.add(figura);
     }
 
 }

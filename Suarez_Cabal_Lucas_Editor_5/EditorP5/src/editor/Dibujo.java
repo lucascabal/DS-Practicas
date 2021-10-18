@@ -18,5 +18,5 @@ public class Dibujo {
 		return null;
 	}
 
-	List<Figura> figuras = new ArrayList<Figura>();
+	public List<Figura> figuras = new ArrayList<Figura>();
 }

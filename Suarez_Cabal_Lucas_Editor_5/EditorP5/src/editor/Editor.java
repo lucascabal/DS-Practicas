@@ -1,12 +1,14 @@
 package editor;
 
 import herramientas.*;
+import registro.Registro;
 
 public class Editor {
 
 	public Editor(Dibujo dibujo) {
 		setDibujo(dibujo);
 		actual = principal = createDefaultTool();
+		registro = new Registro();
 	}
 
 	public void setDibujo(Dibujo dibujo) {
@@ -55,4 +57,5 @@ public class Editor {
 	private Dibujo dibujo;
 	private Herramienta actual;
 	private Herramienta principal;
+	private Registro registro;
 }
